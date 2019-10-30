@@ -1,5 +1,6 @@
 @cor-padrao: orange;
 @cor-branca: #fff;
+@cor-auxiliar: #1e2c35;
 
 /** Geral **/
 body {
@@ -31,7 +32,7 @@ h2 {
 /** Header **/
 header {
   border-top: 5px solid @cor-padrao;
-  background: rgba(30, 44, 53, 0.8);
+  background: fade(@cor-auxiliar, 80);
   height: 90px;
   width: 100%;
   position: absolute;
@@ -104,6 +105,13 @@ header .container {
   font-weight: bold;
 }
 
+.destaque button:hover {
+  background: lighten(@cor-padrao, 10)
+}
+
+.destaque button:active {
+  background: darken(@cor-padrao, 5);
+}
 
 /** Sobre **/
 .sobre {
@@ -162,7 +170,7 @@ header .container {
 
 /** Planos **/
 .planos {
-  background: #1e2c35;
+  background: @cor-auxiliar;
 }
 
 .planos h2 {
@@ -347,7 +355,7 @@ footer::after {
 
 footer::before {
   content: "";
-  background: #1e2c35;
+  background: @cor-auxiliar;
   top: 0;
   left: 0;
   bottom: 0;
