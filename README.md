@@ -7,20 +7,14 @@ Projeto criado para estudos em Less
 #### Install
 
 
-...
-
-npm install -g less
-
-...
 
 
+> npm install -g less
 
 
-
-...
 
 > lessc styles.less styles.css
 
-...
+
 
 
