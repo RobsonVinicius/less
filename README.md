@@ -8,13 +8,19 @@ Projeto criado para estudos em Less
 
 
 ...
+
 npm install -g less
-...
-
-
-
 
 ...
+
+
+
+
+
+...
+
 > lessc styles.less styles.css
+
 ...
+
 
