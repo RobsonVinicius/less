@@ -6,11 +6,11 @@ Projeto criado para estudos em Less
 
 #### Install
 
-'''
+```
 
 npm install -g less
 
-'''
+```
 
 #### Compilar:
 
