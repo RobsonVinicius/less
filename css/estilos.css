@@ -22,7 +22,7 @@ h2 {
 }
 /** Header **/
 header {
-  border-top: 5px solid orange;
+  border-top: 5px solid #0aa;
   background: rgba(30, 44, 53, 0.8);
   height: 90px;
   width: 100%;
@@ -75,9 +75,9 @@ header .container {
 }
 .destaque button {
   margin-top: 1em;
-  background: orange;
+  background: #0aa;
   border: 0;
-  padding: 0.6em;
+  padding: .6em;
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -85,10 +85,10 @@ header .container {
   font-weight: bold;
 }
 .destaque button:hover {
-  background: #ffb733;
+  background: #00dddd;
 }
 .destaque button:active {
-  background: #e69500;
+  background: #009091;
 }
 /** Sobre **/
 .sobre {
@@ -154,15 +154,15 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: orange;
+  background: #0aa;
   text-align: center;
   height: 2em;
-  padding-top: 0.6em;
+  padding-top: .6em;
   margin-top: 0;
 }
 .plano div {
   text-align: center;
-  color: orange;
+  color: #0aa;
   font-size: 2.75em;
 }
 .itens-plano {
@@ -172,7 +172,7 @@ header .container {
   font-size: 1em;
   list-style: none;
   border-bottom: 1px solid #acacac;
-  padding: 0.5em;
+  padding: .5em;
   width: 14.8em;
 }
 .itens-plano li:last-child {
@@ -182,7 +182,7 @@ header .container {
   float: right;
 }
 .plano button {
-  background: orange;
+  background: #0aa;
   border: 0;
   color: #fff;
   width: 210px;
@@ -214,7 +214,7 @@ header .container {
   content: "";
   background: url(../imagens/fundo.png);
   background-size: 25px 25px;
-  opacity: 0.15;
+  opacity: .15;
   top: 0;
   left: 0;
   bottom: 0;
@@ -257,7 +257,7 @@ form {
 .contato input,
 textarea {
   width: 100%;
-  margin-bottom: 0.8em;
+  margin-bottom: .8em;
   padding: 4px 8px;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
@@ -265,7 +265,7 @@ textarea {
 }
 .contato button {
   margin: 0 auto;
-  background: orange;
+  background: #0aa;
   border: 0;
   color: #fff;
   width: 210px;
@@ -283,7 +283,7 @@ footer {
 footer::after {
   content: "";
   background: url(../imagens/fundo-rodape.png);
-  opacity: 0.02;
+  opacity: .02;
   top: 0;
   left: 0;
   bottom: 0;
