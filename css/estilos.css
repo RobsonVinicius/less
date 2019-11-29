@@ -356,7 +356,11 @@ td,
 th {
   padding: 0;
 }
-.sombra-padrao {
+/* Mixins */
+.sombra-padrao,
+.destaque button,
+.plano button,
+.contato button {
   box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 .image-replacement {
@@ -447,7 +451,6 @@ header .container {
   font-size: 1.2em;
   -webkit-border-radius: 2em;
   border-radius: 2em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
 .destaque button:hover {
@@ -556,7 +559,6 @@ header .container {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
 .icone-check,
@@ -639,7 +641,6 @@ textarea {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 /** Footer **/
 footer {
