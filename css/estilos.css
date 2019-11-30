@@ -767,6 +767,7 @@ footer a {
 .social a[href*="instagram"] {
   background-image: url(../imagens/instagram.png);
 }
+/** Media Queries **/
 @media (max-width: 980px) {
   .menu-principal,
   .menu-principal li,
